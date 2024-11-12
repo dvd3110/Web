@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="registration.css.css" />
+  </head>
+  <body>
+    <div class="box">
+      <span class="borderLine"></span>
+      <form>
+        <h2>Register Now</h2>
+        <div class="inputBox">
+          <input type="text" name="name" required /><span>Name</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="email" required /><span>College Mail Id</span>
+          <i></i>
+        </div>
+        
+        <div class="inputBox">
+          <input type="textarea" required /><span>Past experience in the club chosen</span>
+          <select name="people" id="people" required>
+            <option value="">Clubs</option>
+            <option value="1">Sports</option>
+            <option value="2">Technical</option>
+            <option value="3">Non-Technical</option>
+            
+            <option value="4">Literary</option>
+            <option value="4">Cultural</option>
+
+
+          </select>
+          <i></i>
+        </div>
+        
+        <!-- <div class="inputBox">
+          <input type="date" required /><span>Date of birth</span>
+          <i></i>
+        </div> -->
+        <div class="inputBox">
+          <input
+            type="tel"
+          
+            required
+          /><span>Phone Number(Whatsapp enabled)</span>
+          
+          <i></i>
+        </div>
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>
